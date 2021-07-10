@@ -22,8 +22,6 @@ RUN npm run build
 ### RUNNER ###
 FROM base
 
-ENV PORT=3000
-
 # Copy runtime project
 COPY --from=builder /app/dist/ ./src/
 COPY --from=builder /app/node_modules/ ./node_modules
