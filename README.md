@@ -16,3 +16,5 @@ run `(yarn|npm run) dev`
 The prefered way to run this on production is by using Docker.
 
 To do that just run `docker compose up`
+
+If you want that the server persists even when terminal is closed, run `docker compose up -d`
