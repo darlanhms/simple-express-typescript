@@ -1,6 +1,6 @@
 {
     "name": "simple-express-typescript",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
     "repository": "https://github.com/darlanhms/simple-express-typescript.git",
     "author": "Darlan H. <darlanhermessjb@hotmail.com>",
